@@ -13,6 +13,12 @@ The terminal side stays interactive: the PR is loaded into Claude's context, so 
 ask "why does this class need a lock here?" as you scroll, and get an answer grounded in
 the actual diff.
 
+## Screenshot 
+
+<img width="1895" height="928" alt="Screenshot 2026-07-29 at 1 32 00 PM" src="https://github.com/user-attachments/assets/728f6b4f-1afa-44c8-855c-616d8b2967ca" />
+
+
+
 ## How the pieces fit together
 
 ```
