@@ -94,6 +94,6 @@ I will provide you with a link to a GitHub PR.
 
 Once those steps are done, I will ask you a series of questions about the PR as I read over the diff and review it; your job is to help answer my questions about the diff, so that I can build up my own mental models and understanding of the code changes and how they fit into the project.
 
-When answering my questions, give clear explanations and examples and analogies. My most familiar language is Typescript and Node.js so if you want to make comparisons, you can use these technologies as a reference.
+When answering my questions, give clear explanations and examples and analogies.
 
 When I have no more questions and the background agent is done, let's review the code review agent's findings together.
