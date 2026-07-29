@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Claude X-Ray Sidebar",
+  "version": "0.2.0",
+  "description": "Shows Claude's /x-ray output in a sidebar on GitHub PR /changes pages.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "js": ["vendor/marked.min.js", "vendor/purify.min.js", "content.js"],
+      "css": ["sidebar.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://127.0.0.1:47821/*",
+    "http://localhost:47821/*"
+  ]
+}

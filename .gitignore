@@ -1,0 +1,6 @@
+.DS_Store
+
+# Broker runtime state lives in ~/.claude/pr-sidebar/, but ignore it here in case
+# anyone runs server.js with a different HOME.
+state.json
+state.json.tmp
